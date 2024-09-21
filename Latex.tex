@@ -1,0 +1,182 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{parskip}
+\usepackage{url}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Lab Notebook - Team 33}
+\fancyhead[R]{Maulana Abul Kalam Azad University of Technology}
+\fancyfoot[C]{\thepage}
+
+\title{Lab Notebook\\Team 33}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+    \textbf{UNIVERSITY NAME}
+    
+    Maulana Abul Kalam Azad University of Technology
+\end{center}
+
+\vspace{1cm}
+
+\begin{center}
+    \textbf{ASSIGNMENT DETAILS}
+\end{center}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Topic:} Create a Git Repository Containing Lab Notebook in a LaTeX File
+    \item \textbf{Subject:} Software Tools and Techniques
+    \item \textbf{Team no:} 33
+    \item \textbf{GitHub Repo Link:} \url{https://github.com/nasim888/LaTeX}
+\end{itemize}
+
+\vspace{1cm}
+
+\begin{center}
+    \textbf{Team Members}
+\end{center}
+
+\vspace{0.5cm}
+
+\begin{multicols}{2}
+    \begin{itemize}[leftmargin=*]
+        \item \textbf{Member 1 (Lead):}\\
+        \textbf{Name:} Nasim Ahemed \\
+        \textbf{Reg no.:} 233002410597\\
+        \textbf{Course:} BSc in IT (Cyber Security)\\
+        \textbf{GitHub link:} \url{https://github.com/nasim888}
+    \end{itemize}
+    \vspace{0.5cm}
+    \begin{itemize}[leftmargin=*]
+        \item \textbf{Member 2:}\\
+        \textbf{Name:} Sk Wasim Afrose\\
+        \textbf{Reg no.:} 233001010501\\
+        \textbf{Course:} BCA \\
+        \textbf{GitHub link:} https://github.com/WasimAfrose
+    \end{itemize}
+
+    \vfill
+
+    \begin{itemize}[leftmargin=*]
+        \item \textbf{Member 3:}\\
+        \textbf{Name:} Sneha Ghosh\\
+        \textbf{Reg no.:} 233002410557\\
+        \textbf{Course:} Bsc in IT (Artificial Intelligence)\\
+        \textbf{GitHub link:} https://github.com/snehaghosh0
+    \end{itemize}
+    \vspace{0.5cm}
+    \begin{itemize}[leftmargin=*]
+        \item \textbf{Member 4:}\\
+        \textbf{Name:} Pronab Sarkar \\
+        \textbf{Reg no.:} 233002410615\\
+        \textbf{Course:} BSc in IT (Data Science)\\
+        \textbf{GitHub link:} https://github.com/pronab12
+    \end{itemize}
+
+    \vfill
+
+    \begin{itemize}[leftmargin=*]
+        \item \textbf{Member 5:}\\
+        \textbf{Name:} Arnab Bhowmick\\
+        \textbf{Reg no.:} 233002410577\\
+        \textbf{Course:} Bsc in IT (Artificial Intelligence)\\
+        \textbf{GitHub link:} https://github.com/arnab438
+    \end{itemize}
+\end{multicols}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Lab Assignment 1: Calculator Program}
+
+\textbf{Task:} Create a local repository, build a C program for a calculator in the local repository, commit the changes, and publish it as a public repository on GitHub.
+
+\textbf{Procedure:}
+\begin{enumerate}
+    \item \textbf{Initialize Local Repository:}
+    \begin{itemize}
+        \item Open the terminal (or command prompt) and navigate to the directory where you want to create your project.
+        \item Run the command: \texttt{git init} to initialize a new Git repository.
+    \end{itemize}
+    \item \textbf{Create the C Program:}
+    \begin{itemize}
+        \item Create a new file named \texttt{calculator.c} in your project directory.
+        \item Write the C code for the calculator program, ensuring it can perform basic arithmetic operations like addition, subtraction, multiplication, and division.
+        \item Save the file.
+    \end{itemize}
+    \item \textbf{Stage and Commit Changes:}
+    \begin{itemize}
+        \item Stage the file for commit by running: \texttt{git add calculator.c}
+        \item Commit the file with a descriptive message: \texttt{git commit -m "Add basic calculator program"}
+    \end{itemize}
+    \item \textbf{Publish on GitHub:}
+    \begin{itemize}
+        \item Log in to your GitHub account and create a new public repository.
+        \item In the terminal, link your local repository to the remote GitHub repository by running: \texttt{git remote add origin <repository-URL>}
+        \item Push your local commits to GitHub with the command: \texttt{git push -u origin main}
+    \end{itemize}
+    \item \textbf{Verify the Repository:}
+    \begin{itemize}
+        \item Open your GitHub repository in a web browser to ensure the \texttt{calculator.c} file is present and the commit message is correctly displayed.
+    \end{itemize}
+\end{enumerate}
+
+\section{Lab Assignment 2: Mind Reader Application}
+
+\textbf{Task:} Your professor created a mind reader application and wants you to try it out. After running the program, you found the submit button looks dull. You renamed it ”Chin Tapak Dum Dum,” but the button became disproportionate. Your task is to fix the button issue and create a pull request with the solution.
+
+\textbf{Procedure:}
+\begin{enumerate}
+    \item \textbf{Clone the Repository:}
+    \begin{itemize}
+        \item Open GitHub Desktop or use the terminal to clone the repository: \url{https://github.com/GeekAyan/STT}
+        \item Run the command: \texttt{git clone https://github.com/GeekAyan/STT.git}
+        \item Navigate to the project directory.
+    \end{itemize}
+    \item \textbf{Run the Application:}
+    \begin{itemize}
+        \item Follow the instructions provided in the \texttt{README.md} file to set up and run the mind reader application using your preferred Integrated Development Environment (IDE).
+        \item Observe the application’s user interface, particularly the submit button.
+    \end{itemize}
+    \item \textbf{Identify and Rename the Button:}
+    \begin{itemize}
+        \item Locate the submit button code in the application’s source files.
+        \item Rename the button text to "Chin Tapak Dum Dum."
+        \item Notice that the button has become disproportionate due to the increased text length.
+    \end{itemize}
+    \item \textbf{Fix the Button Size:}
+    \begin{itemize}
+        \item Analyze the layout code that controls the button’s appearance.
+        \item Adjust the width and height properties, or use appropriate CSS/JavaFX adjustments to make the button proportionate.
+        \item Test the application to ensure the button now displays correctly and does not affect other UI elements.
+    \end{itemize}
+    \item \textbf{Commit and Push the Changes:}
+    \begin{itemize}
+        \item Stage the modified files with: \texttt{git add .}
+        \item Commit the changes with a descriptive message: \texttt{git commit -m "Fix button size after renaming to 'Chin Tapak Dum Dum'"}
+        \item Push the changes to your forked repository on GitHub.
+    \end{itemize}
+    \item \textbf{Create a Pull Request:}
+    \begin{itemize}
+        \item Go to your GitHub repository and click on "Compare pull request."
+        \item Write a brief description of the changes made and submit the pull request to the original repository.
+    \end{itemize}
+    \item \textbf{Review and Merge:}
+    \begin{itemize}
+        \item Wait for the repository owner to review your pull request.
+        \item If accepted, your changes will be merged into the main project.
+    \end{itemize}
+\end{enumerate}
+
+\end{document}
