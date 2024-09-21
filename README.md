@@ -37,8 +37,14 @@ To compile the LaTeX file and generate the PDF, follow these steps:
 
 1. **Install LaTeX:**
    Make sure you have a LaTeX distribution installed, such as TeX Live, MikTeX, or MacTeX.
+   
 
-2. **Compile the LaTeX File:**
+3. **Compile the LaTeX File:**
    Run the following command in your terminal:
    ```bash
-   pdflatex lab_notebook.tex
+   pdflatex Latex.tex
+
+4. **View the PDF In terminal:**
+   ```bash
+   xdg-open Lab_Note_Book_team_33.pdf
+
